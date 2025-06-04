@@ -19,6 +19,7 @@ public class LoopExercises {
         int sum = 0;
         while(i <= n) {
             sum += i;
+
             if(sum % 2 == 0) {
                break;
             }

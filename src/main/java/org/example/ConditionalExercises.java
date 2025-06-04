@@ -6,7 +6,8 @@ public class ConditionalExercises {
         // (use an if statement with an else block.)
         if (x < 5) {
             return true;
-        } else {
+        }
+        else {
             return false;
         }
     }
@@ -18,9 +19,11 @@ public class ConditionalExercises {
         // (use if, else if, and else)
         if (age >= 20) {
             return "adult";
-        } else if (age >= 13) {
+        }
+        else if (age >= 13) {
             return "teen";
-        } else {
+        }
+        else {
             return "child";
         }
     }
@@ -33,7 +36,8 @@ public class ConditionalExercises {
         // (use an if statement with an else block.)
         if (passwordLength >= 8) {
             return true;
-        } else {
+        }
+        else {
             return false;
         }
     }
